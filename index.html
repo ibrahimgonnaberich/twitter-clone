@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>twitter clone</title>
+
+</head>
+
+<body>
+  <header>
+    <nav class="links">
+      <a href="">
+        <i class="material-icons-outlined"> flutter_dash</i>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined" style="font-weight: 600">home</i>
+        <span>Home</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined" style="font-weight: 200"> tag</i>
+        <span>Explore</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined"> notifications</i>
+        <span>Notifications</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined"> email</i>
+        <span>Messages</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined">bookmark_border</i>
+        <span>Bookmarks</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined">list_alt</i>
+        <span>Lists</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined">person</i>
+        <span>profile</span>
+      </a>
+
+      <a href="">
+        <i class="material-icons-outlined" style="border: solid 2px black; border-radius: 50%">more_horiz</i>
+        <span>More</span>
+      </a>
+
+      <div>
+
+        <button class="tweet-btn btn-hidden"> Tweet</button>
+      </div>
+    </nav>
+
+    <div class="myAccount">
+      <a href="">
+        <img src="imgs/pfp.jpg" alt="" />
+        <div class="account-information">
+
+
+          <span>ibrahim alba...</span>
+          <span>@albaghdaddi</span>
+        </div>
+        <i class="material-icons-outlined">more_horiz</i>
+      </a>
+
+    </div>
+    </div>
+  </header>
+  <main>
+    <div class="flex-box">
+      <div class="main-feed" id="news_feed">
+        <div class="home-bar">
+          <span>Home</span>
+          <i class="material-icons-outlined"> auto_awesome</i>
+        </div>
+
+        <div class="new-tweet"><img src="imgs/pfp.jpg" alt="">
+          <div class="new-tweet-details">
+            <input type="text" placeholder="fullname" class="username" id="full-name-added">
+            <input type="text" placeholder="what's happening?" class="tweet-contant" id="tweet-contant-added">
+            <div class="new-tweet-actions">
+              <ul>
+
+                <li> <i class="material-icons-outlined"> image</i>
+                </li>
+                <li> <i class="material-icons-outlined gif-box"> gif_box</i>
+                </li>
+                <li> <i class="material-icons-outlined"> poll</i>
+                </li>
+                <li> <i class="material-icons-outlined"> sentiment_satisfied</i>
+                </li>
+                <li> <i class="material-symbols-outlined">
+                    pending_actions
+                  </i>
+                </li>
+
+                <li><i class="material-symbols-outlined">
+                    location_on
+                  </i></li>
+
+
+              </ul>
+
+              <button class="tweet-btn-2" id="tweet-add-btn"> Tweet</button>
+            </div>
+          </div>
+        </div>
+        
+                <div class="tweetsholder" id="tweetsholder">
+
+
+
+
+
+                </div>
+
+
+      </div>
+      <div class="side-feed">
+
+
+
+        <div class="sticky">
+
+          <div class="search">
+            
+            <span class="material-symbols-outlined">
+              search
+            </span>
+            <input type="text" placeholder="Search Twitter">
+          </div>
+          <div class="trending">
+
+            <h3 class="h4-title">Trends for you</h3>
+
+
+            <div class="trending-item">
+
+              <div class="item-details">
+
+
+
+                <span>#FreePalestine</span>
+                <i class="material-icons-outlined">more_horiz</i>
+              </div>
+              <span>4,4k Tweets</span>
+
+
+            </div>
+            <div class="trending-item">
+
+              <div class="item-details">
+
+
+
+                <span>programing</span>
+                <i class="material-icons-outlined">more_horiz</i>
+              </div>
+              <span>250k Tweets</span>
+
+
+            </div>
+            <div class="trending-item">
+
+              <div class="item-details">
+
+
+
+                <span>After 40</span>
+                <i class="material-icons-outlined">more_horiz</i>
+              </div>
+              <span>15,1k Tweets</span>
+
+
+            </div>
+            <div class="trending-item">
+
+              <div class="item-details">
+
+
+
+                <span>Al-Aqsa Mosque</span>
+                <i class="material-icons-outlined">more_horiz</i>
+              </div>
+              <span>4,2k Tweets</span>
+
+
+            </div>
+            <a href="" class="show-more">Show more</a>
+          </div>
+
+        </div>
+        <div class="follow">
+
+
+
+          <h3 class="h4-title">Who to follow</h3>
+
+
+
+          <div class="follow-profile">
+
+
+
+            <img src="imgs/GSG.png" alt="" class="twitter-img">
+
+            <div class="follow-details">
+              <a href="#">
+                Gaza Sky Geeks
+              </a>
+              <span>@Gsg</span>
+
+            </div>
+
+            <button class="tweet-btn">Follow</button>
+
+          </div>
+
+          <div class="follow-profile">
+
+
+
+            <img src="imgs/GSG.png" alt="" class="twitter-img">
+
+            <div class="follow-details">
+              <a href="#">
+                Gaza Sky Geeks
+              </a>
+              <span>@Gsg</span>
+
+            </div>
+
+            <button class="tweet-btn">Follow</button>
+
+          </div>
+
+
+
+
+
+          <a href="" class="show-more">Show more</a>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+<script src="script.js"></script>
+
+</html>
